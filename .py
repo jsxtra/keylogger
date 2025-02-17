@@ -1,3 +1,4 @@
+# Execute on python using the command python keylogger.py 
 import keyboard,os
 from threading import Timer
 from datetime import datetime
